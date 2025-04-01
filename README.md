@@ -35,6 +35,13 @@ chmod +x rog_spoof_v3.1.sh
 
 Important Notes:
 
+Once the script has finished running, just leave it, and your phone will automatically restart or reboot. Wait for a moment, and once your phone is back on, check your device. To check it, first, download the app "DevCheck" from the Play Store.
+
+
+
+
+
+
 To fully utilize the script's functionality, your device must be rooted since many commands require root access.
 
 If your device is not rooted, the script will still work but with limited optimizations.
