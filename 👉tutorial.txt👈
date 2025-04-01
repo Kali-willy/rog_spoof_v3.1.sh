@@ -1,0 +1,38 @@
+Based on the script you shared, I'll explain how to make it work by creating a new file and properly running it. Let me guide you through the process in Filipino.
+
+Para mapagana ang ASUS ROG 10 Script for Termux Brevent Qute, kailangan mong sundin ang mga sumusunod na hakbang:
+
+1. Una, buksan ang Termux app sa iyong device.
+
+2. Gumawa ng bagong file gamit ang nano editor:
+   ```
+   nano rog_spoof_v3.1.sh
+   ```
+
+3. I-paste ang buong code na nakapaloob sa file na ibinigay mo. Pwede mong gawin ito sa pamamagitan ng pagpindot ng layscreen at pagpili ng "Paste" option.
+
+4. Kapag tapos na, i-save ang file sa pamamagitan ng pagpindot ng:
+   ```
+   Ctrl + X
+   Y
+   Enter
+   ```
+
+5. Bigyan ng permission para maging executable ang file:
+   ```
+   chmod +x rog_spoof_v3.1.sh
+   ```
+
+6. Pagkatapos, patakbuhin ang script:
+   ```
+   ./rog_spoof_v3.1.sh
+   ```
+
+Importante na tandaan:
+- Para magkaroon ng full functionality ang script, kailangan mong i-root ang iyong device dahil marami sa mga commands ay nangangailangan ng root access.
+- Kung hindi naka-root ang device mo, gagana pa rin ang script pero limitado lang ang mga optimizations na mai-apply nito.
+- Ang script na ito ay nagmamarka ng iyong device bilang ASUS ROG 10 at naglalagay ng iba't ibang optimizations para sa gaming.
+
+Paalala: Ang pag-root ng device ay maaaring magbawas sa seguridad nito at maaari ring mawala ang warranty. Mag-ingat sa paggamit ng scripts na humihingi ng root access.
+
+Kailangan mo rin ng Termux na naka-install sa iyong device para mapagana ito. Kung wala ka pa nitong app, maaari mo itong i-download sa Google Play Store o sa F-Droid.
